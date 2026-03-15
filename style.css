@@ -122,6 +122,12 @@ body {
     border-color: transparent;
 }
 
+.btn-disabled {
+    opacity: 0.72;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 .btn-ghost {
     background: transparent;
     color: var(--ink);
