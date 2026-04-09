@@ -57,9 +57,18 @@ Inserir aqui os prints após executar o projeto localmente.
 
 ## 6. Links do projeto
 
-- Repositório GitHub: inserir link aqui
+- Repositório GitHub: https://github.com/AdeTuris/Desenvolvimeto-Web-2026
 - Site no Vercel: inserir link aqui
 
-## 7. Observações finais
+## 7. Etapas de publicação
+
+1. Criar o repositório no GitHub.
+2. Enviar o projeto local com `git push`.
+3. Conectar o repositório ao Vercel.
+4. Confirmar o build com `npm run build`.
+5. Publicar o site e copiar o link gerado pelo Vercel.
+6. Inserir os links finais nesta documentação.
+
+## 8. Observações finais
 
 O projeto foi construído em React com Vite e preparado para publicação no GitHub e no Vercel.

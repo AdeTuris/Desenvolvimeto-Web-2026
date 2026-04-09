@@ -25,6 +25,13 @@ npm run dev
 - `src/styles.css`: estilização responsiva e visual principal do projeto.
 - `docs/relatorio.md`: documento de entrega da atividade.
 
+## Publicação
+
+Para finalizar a entrega, publique o repositório no GitHub e conecte-o ao Vercel. Depois disso, atualize o relatório com os links finais:
+
+- Repositório GitHub: https://github.com/AdeTuris/Desenvolvimeto-Web-2026
+- Site no Vercel: inserir link aqui
+
 ## Observação
 
 O projeto usa a API pública do ViaCEP para consultar endereços no buscador de CEP.
