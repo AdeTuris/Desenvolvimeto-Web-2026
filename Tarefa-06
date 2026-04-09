@@ -1,0 +1,48 @@
+import React, { useState } from "react";
+
+export default function Todo() {
+	const [tasks, setTasks] = useState([]);
+	const [input, setInput] = useState("");
+
+	const addTask = () => {
+		if (!input.trim()) {
+			return;
+		}
+
+		setTasks([...tasks, input.trim()]);
+		setInput("");
+	};
+
+	return React.createElement(
+		"div",
+		null,
+		React.createElement("h2", null, "To-Do List"),
+		React.createElement("input", {
+			value: input,
+			onChange: (e) => setInput(e.target.value),
+			placeholder: "Nova tarefa",
+		}),
+		React.createElement("button", { onClick: addTask }, "Adicionar"),
+		React.createElement(
+			"ul",
+			null,
+			tasks.map((task, index) => React.createElement("li", { key: index }, task)),
+		),
+	);
+}
+
+export function Contador() {
+	const [count, setCount] = useState(0);
+
+	return React.createElement(
+		"div",
+		null,
+		React.createElement("h2", null, "Contador de Cliques"),
+		React.createElement("p", null, count),
+		React.createElement(
+			"button",
+			{ onClick: () => setCount(count + 1) },
+			"Clique",
+		),
+	);
+}
