@@ -30,7 +30,7 @@ npm run dev
 Para finalizar a entrega, publique o repositório no GitHub e conecte-o ao Vercel. Depois disso, atualize o relatório com os links finais:
 
 - Repositório GitHub: https://github.com/AdeTuris/Desenvolvimeto-Web-2026
-- Site no Vercel: inserir link aqui
+- Site no Vercel: https://tarefa-06-react.vercel.app
 
 ## Observação
 

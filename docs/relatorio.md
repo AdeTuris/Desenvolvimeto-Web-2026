@@ -58,7 +58,7 @@ Inserir aqui os prints após executar o projeto localmente.
 ## 6. Links do projeto
 
 - Repositório GitHub: https://github.com/AdeTuris/Desenvolvimeto-Web-2026
-- Site no Vercel: inserir link aqui
+- Site no Vercel: https://tarefa-06-react.vercel.app
 
 ## 7. Etapas de publicação
 
